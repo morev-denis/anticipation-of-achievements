@@ -1,3 +1,7 @@
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .article__title {
   font-family: serif;
 }
