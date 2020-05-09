@@ -2,6 +2,9 @@
   font-family: 'IBM Plex Serif';
   font-weight: bold;
   src:
+    local('IBM Plex Serif'),
+    local('IBMPlexSerif'),
+    local('IBM Plex Serif SemiBold'),
     url(/fonts/Ibmplexserifsemibold.woff2) format('woff2'),
     url(/fonts/Ibmplexserif.woff) format('woff'),
     url(/fonts/Ibmplexserifsemibold.ttf) format('truetype');
@@ -12,6 +15,7 @@
   font-family: Ubuntu;
   font-weight: normal;
   src:
+    local('Ubuntu'), local('ubuntu'),
     url(/fonts/ubuntu.woff2) format('woff2'),
     url(/fonts/ubuntu.woff) format('woff'),
     url(/fonts//ubuntu.ttf) format ('truetype');
@@ -22,6 +26,8 @@
   font-family: Istok;
   font-weight: normal;
   src:
+    local('Istok'), local('Istok Regular'), local('istok'),
+    local('istokregular'), local('Istok Web'),
     url(/fonts/istokregular.woff2) format('woff2'),
     url(/fonts/istokregular.woff) format('woff'),
     url(/fonts/istokregular.ttf) format('truetype');
